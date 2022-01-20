@@ -1,0 +1,42 @@
+INFO 2022-01-20 00:29:46 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-20 00:29:46 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:29:47 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-20 00:29:47 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-20 00:29:47 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:29:47 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-20 00:30:17 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-20 00:30:17 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:30:17 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-20 00:30:17 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-20 00:30:17 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:30:17 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-20 00:30:17 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-20 00:30:17 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:30:17 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-20 00:33:19 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-20 00:33:19 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:33:19 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-20 00:33:19 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-20 00:33:19 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:33:19 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-20 00:33:19 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-20 00:33:19 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:33:19 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-20 00:33:45 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-20 00:33:45 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:33:45 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-20 00:33:45 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-20 00:33:45 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:33:45 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-20 00:33:45 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-20 00:33:45 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:33:45 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-20 00:45:05 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-20 00:45:05 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:45:05 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-20 00:45:05 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-20 00:45:05 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:45:05 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-20 00:45:05 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-20 00:45:05 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-20 00:45:05 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!

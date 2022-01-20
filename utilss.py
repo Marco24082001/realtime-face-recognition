@@ -277,7 +277,7 @@ def identify_face(embedding, embedding_dict):
                 min_distance = distance
                 identity = name
 
-        if min_distance <= 1.1:
+        if min_distance <= 1.5:
             # remove 'embeddings/' from identity
             identity = identity[11:]
             result = "It's " + str(identity) + ", the distance is " + str(min_distance)

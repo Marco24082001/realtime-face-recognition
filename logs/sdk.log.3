@@ -1,0 +1,88 @@
+ERROR 2022-01-19 22:46:47 app.py: 1753] Exception on /cameras [GET]
+Traceback (most recent call last):
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\app.py", line 2284, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\app.py", line 1807, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\app.py", line 1710, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\app.py", line 1805, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\app.py", line 1791, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 346, in cameras
+    return render_template('cameramen.html')
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\templates\cameramen.html", line 13, in top-level template code
+    <!--      <button><a src="{{ url_for('attend') }}"></a> ĐIỂM DANH</button>-->
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\helpers.py", line 341, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\app.py", line 2053, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\flask\helpers.py", line 330, in url_for
+    force_external=external)
+  File "C:\Users\PC\PycharmProjects\facenet-realtime-face-recognition\venv\lib\site-packages\werkzeug\routing.py", line 2005, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'attend'. Did you mean 'static' instead?
+INFO 2022-01-19 22:47:54 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-19 22:47:54 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:47:54 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-19 22:47:54 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-19 22:47:54 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:47:54 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-19 22:47:54 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-19 22:47:54 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:47:55 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-19 22:49:51 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-19 22:49:51 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:49:51 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-19 22:49:51 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-19 22:49:51 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:49:52 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-19 22:49:52 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-19 22:49:52 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:49:52 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-19 22:54:20 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-19 22:54:20 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:54:20 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-19 22:54:20 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-19 22:54:20 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:54:21 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-19 22:54:21 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-19 22:54:21 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:54:21 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-19 22:55:40 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-19 22:55:40 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:55:40 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-19 22:55:40 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-19 22:55:40 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:55:41 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-19 22:55:41 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-19 22:55:41 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:55:41 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-19 22:56:44 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-19 22:56:44 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:56:44 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-19 22:56:44 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-19 22:56:44 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:56:45 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
+INFO 2022-01-19 22:56:45 FaceRecModelLoader.py: 17] Start to analyze the face recognition model, model path: models, model category: face_recognition，model name: face_recognition_1.0
+INFO 2022-01-19 22:56:45 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:56:45 FaceRecModelLoader.py: 31] Successfully loaded the face recognition model!
+INFO 2022-01-19 22:57:54 FaceDetModelLoader.py: 17] Start to analyze the face detection model, model path: models, model category: face_detection，model name: face_detection_1.0
+INFO 2022-01-19 22:57:54 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:57:54 FaceDetModelLoader.py: 34] Successfully loaded the face detection model!
+INFO 2022-01-19 22:57:54 FaceAlignModelLoader.py: 17] Start to analyze the face landmark model, model path: models, model category: face_alignment，model name: face_alignment_1.0
+INFO 2022-01-19 22:57:54 BaseModelLoader.py: 34] Successfully parsed the model configuration file meta.json!
+INFO 2022-01-19 22:57:55 FaceAlignModelLoader.py: 29] Successfully loaded the face landmark model!
